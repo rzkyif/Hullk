@@ -141,7 +141,7 @@ public class Main {
                 }
             }
         }
-        System.out.printf("(%d, %d)}\n", lineList.get(0)[0], lineList.get(0)[1]);
+        System.out.printf("(%d, %d)}\n", lineList.get(0)[0]+1, lineList.get(0)[1]+1);
 
         // Timer selesai: Pencetakan daftar garis
         d = System.nanoTime() - t;
